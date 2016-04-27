@@ -8,83 +8,119 @@
   </head>
 
 <body>
-  <div class="container">
-    <div class="card text-center">
-      <img src="profile.jpg" alt="Alec Lister" id="img-profile" class="img-circle">
-      <h1>Alec Lister</h1>
-      <h3>Student @Le Wagon</h3>
-      <p>Currently studying at Le Wagon to become a kick ass fullstack developer and <strong>take over the world!</strong></p>
-      <a href="http://twitter.com/aleclister" class="btn-red">See my twitter</a>
+  <div id="sidebar">
+    <ul>
+      <li>
+        <a href="#summary" class="btn-red">Summary</a>
+      </li>
+      <li>
+        <a href="#projects" class="btn-red">Projects</a>
+      </li>
+      <li>
+        <a href="#about" class="btn-red">About</a>
+      </li>
+    </ul>
+  </div>
+
+  <div id="wrapper">
+    <div id="left-container">
+
+      <div class="card text-center" id="summary">
+        <img src="profile.jpg" alt="Alec Lister" id="img-profile" class="img-circle">
+        <h1>Alec Lister</h1>
+        <h3>Student @Le Wagon</h3>
+        <p>Currently studying at Le Wagon to become a kick ass fullstack developer and <strong>take over the world!</strong></p>
+        <a href="http://twitter.com/aleclister" class="btn-red">See my twitter</a>
+      </div>
+
+      <div class="card text-center">
+        <ul class="list-inline">
+
+          <li class="text-center">
+            <a href="http://facebook.com/aleclister">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+              Facebook
+            </a>
+          </li>
+
+          <li class="text-center">
+            <a href="http://github.com/aleclister">
+              <i class="fa fa-github" aria-hidden="true"></i>
+              Github
+            </a>
+          </li>
+
+          <li class="text-center">
+            <a href="http://twitter.com/aleclister">
+            <i class="fa fa-twitter"></i>
+              Twitter
+            </a>
+          </li>
+
+          <li class="text-center">
+            <a href="http://linkedin.com/aleclister">
+            <i class="fa fa-linkedin"></i>
+              LinkedIn
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
 
-    <div class="card text-center">
-      <ul class="list-inline">
+    <div id=right-container>
+      <div class="card" id="projects">
+      <h2>My Projects</h2>
+      <table id="projects">
+        <tbody>
+          <tr>
+            <td>
+              <img src="The-Wired-Yacht-800x490.jpg" alt="yacht-software">
+            </td>
+            <td>
+              <h3>Superyacht Software Engineering</h3>
+              <p>A startup that specializes in the engineering of software, managing and navigation systems onboard
+              <strong>luxury yachts</strong></p>
+            </td>
+          </tr>
 
-        <li class="text-center">
-          <a href="http://facebook.com/aleclister">
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-            Facebook
-          </a>
-        </li>
-
-
-        <li class="text-center">
-          <a href="http://twitter.com/aleclister">
-          <i class="fa fa-twitter"></i>
-            Twitter
-          </a>
-        </li>
-
-        <li class="text-center">
-          <a href="http://linkedin.com/aleclister">
-          <i class="fa fa-linkedin"></i>
-            LinkedIn
-          </a>
-        </li>
-      </ul>
+          <tr>
+            <td>
+              <img src="yacht_Skat-1.jpg" alt="yacht-charter">
+            </td>
+            <td>
+              <h3>Online Yacht Comparison brokerage</h3>
+              <p>A site that scraps all the data of superyachts that are currently for sale and for charter from all
+              brokerages around the world and displays it in <strong>one beautiful comparison site.</strong></p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
     </div>
 
-    <div class="card text-center">
-    <h2>My Projects</h2>
-    <table id="projects">
-      <tbody>
-        <tr>
-          <td>
-            <img src="The-Wired-Yacht-800x490.jpg" alt="yacht-software">
-          </td>
-          <td>
-            <h3>Superyacht Software Engineering</h3>
-            <p>A startup that specializes in the engineering of software, managing and navigation systems onboard <strong>luxury yachts</strong></p>
-          </td>
-        </tr>
+    <div class="clear"></div>
+    <div class="card" id="footer">
+      <div id="footer-card">
+        <h2>Contact details</h2>
+        <p>For further contact details regarding interest in my projects, please contact my by the following methods:</p>
 
-        <tr>
-          <td>
-            <img src="yacht_Skat-1.jpg" alt="yacht-charter">
-          </td>
-          <td>
-            <h3>Online Yacht Comparison site</h3>
-            <p>A site that scraps all the data of superyachts that are currently for sale and for charter from all brokerages around the world and displays
-            it in <strong>one beautiful comparison site.</strong></p>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+        <ul class="list-inline">
+          <li class="text-center">
+            <a href="mailto:alec.lister@gmail.com">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              Email
+            </a>
+          </li>
+          <li class="text-center">
+            <a href="http://pidgeon.com">
+            <i class="fa fa-twitter"></i>
+              Carrier Pidgeon
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-
-    <div class="card text-center">
-    <h2>Contact details</h2>
-    <p>For further contact details regarding interest in my projects, please contact my by the following methods:</p>
-
-    <ul class="list-inline">
-        <li class="text-center">
-          <a href="mailto:alec.lister@gmail.com">
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-            Email
-          </a>
-        </li>
-    </div>
-
+  </div>
 </body>
 </html>
 
